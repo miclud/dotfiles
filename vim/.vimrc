@@ -1,3 +1,20 @@
+" Vundle specific stuff start
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Let Vundle manage itself
+Plugin 'VundleVim/Vundle.vim'
+
+" Plugins
+Plugin 'avakhov/vim-yaml'
+
+call vundle#end()
+
+" Vundle specific stuff end
+
 set expandtab
 set ts=4
 set sw=4
