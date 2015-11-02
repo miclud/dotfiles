@@ -26,4 +26,5 @@ EDITOR=/usr/bin/vim
 WORKON_HOME=~/envs
 
 source $ZSH/oh-my-zsh.sh
-source virtualenvwrapper.sh
+
+source $HOME/.profile
