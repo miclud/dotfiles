@@ -4,3 +4,4 @@ stow tmux
 stow vim
 stow profile
 stow zsh
+stow i3
