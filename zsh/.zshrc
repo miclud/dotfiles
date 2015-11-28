@@ -1,10 +1,10 @@
 # Path to oh-my-zsh
-ZSH=/home/miclud/.oh-my-zsh
+ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="pygmalion"
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _complete _ignored _approximate
-zstyle :compinstall filename '/home/miclud/.zshrc'
+zstyle :compinstall filename '$HOME/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -20,7 +20,7 @@ bindkey -e
 plugins=(git gitfast)
 
 # User configuration
-export PATH="/home/miclud/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
+export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
 
 EDITOR=/usr/bin/vim
 WORKON_HOME=~/envs
