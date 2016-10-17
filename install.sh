@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-stow tmux
-stow vim
-stow profile
-stow zsh
-stow i3
-stow git
+stow -t ~ tmux
+stow -t ~ vim
+stow -t ~ profile
+stow -t ~ zsh
+stow -t ~ i3
+stow -t ~ git
