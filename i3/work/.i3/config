@@ -117,18 +117,18 @@ set $monR DP4-1
 
 # variables for workpacenames
 # left monitor
-set $ws1L 1:php-storm
-set $ws2L 2:misc
-set $ws3L 3:mail
-set $ws4L 4:spotify
-set $ws5L 5:web2
+set $ws1L "1 "
+set $ws2L "2 "
+set $ws3L "3 "
+set $ws4L "4 "
+set $ws5L "5  "
 
 # right monitor
-set $ws1R 10:terminal
-set $ws2R 9:web
-set $ws3R 8:communication
-set $ws4R 7:misc-dev
-set $ws5R 6:misc2
+set $ws1R "10 "
+set $ws2R "9  "
+set $ws3R "8 "
+set $ws4R "7  "
+set $ws5R "6 "
 
 # autostart
 #exec --no-startup-id i3-msg '1:php-storm exec php
