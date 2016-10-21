@@ -108,7 +108,7 @@ set $monR DP4-1
 set $ws1L "1 "
 set $ws2L "2 "
 set $ws3L "3 "
-set $ws4L "4 "
+set $ws4L "4 "
 set $ws5L "5  "
 
 # right monitor
