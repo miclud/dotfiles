@@ -26,12 +26,6 @@ set $mod Mod4
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
-# the arrows is not convenient
-set $up l
-set $down k
-set $left j
-set $right semicolon
-
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
