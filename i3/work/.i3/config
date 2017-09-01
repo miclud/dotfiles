@@ -118,6 +118,10 @@ set $ws3R "8 "
 set $ws4R "7  "
 set $ws5R "6 "
 
+# Move all pidgin windows to workspace 8
+assign [class="^Pidgin$"] → $ws3R
+for_window [class="^Pidgin$" window_role="conversation"] resize grow width 0 px or 30 ppt, resize shrink height 400px, move left
+
 # autostart
 #exec --no-startup-id i3-msg '1:php-storm exec php
 
