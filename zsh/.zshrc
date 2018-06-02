@@ -17,7 +17,7 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 #plugins
-plugins=(git gitfast docker docker-compose)
+plugins=(git gitfast docker docker-compose jump)
 
 # User configuration
 export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
