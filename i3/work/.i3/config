@@ -19,6 +19,9 @@ font pango: M+ 1m, FontAwesome, Ionicons, 8
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Move workspace to other monitor
+bindsym $mod+m move workspace to output left
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 

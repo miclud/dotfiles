@@ -41,6 +41,9 @@ mode "pass-through" {
 
 bindsym $mod+t mode "pass-through"
 
+# Move workspace to other monitor
+bindsym $mod+m move workspace to output left
+
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
