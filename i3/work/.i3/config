@@ -145,6 +145,9 @@ set $ws3R "8 "
 set $ws4R "7  "
 set $ws5R "6 "
 
+# laptop
+set $wsE1 ""
+
 # assign workspaces to specific outputs
 workspace $ws1L output $monL
 workspace $ws1R output $monR
@@ -156,6 +159,8 @@ workspace $ws4L output $monL
 workspace $ws4R output $monR
 workspace $ws5L output $monL
 workspace $ws5R output $monR
+# Laptop screen
+workspace $wsE1 output $monLAP
 
 # Assign applications to default workspaces
 assign [class="phpstorm"] $ws1L
@@ -186,6 +191,7 @@ bindsym $mod+9 workspace $ws2R
 bindsym $mod+8 workspace $ws3R
 bindsym $mod+7 workspace $ws4R
 bindsym $mod+6 workspace $ws5R
+bindsym $mod+Home workspace $wsE1
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1L
@@ -198,6 +204,7 @@ bindsym $mod+Shift+7 move container to workspace $ws4R
 bindsym $mod+Shift+8 move container to workspace $ws3R
 bindsym $mod+Shift+9 move container to workspace $ws2R
 bindsym $mod+Shift+0 move container to workspace $ws1R
+bindsym $mod+Shift+Home move container to workspace $wsE1
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
