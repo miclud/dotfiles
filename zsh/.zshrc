@@ -17,7 +17,7 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 #plugins
-plugins=(git gitfast docker docker-compose jump)
+plugins=(git gitfast docker docker-compose jump helm kubectl)
 
 # User configuration
 export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
@@ -28,3 +28,5 @@ WORKON_HOME=~/envs
 source $ZSH/oh-my-zsh.sh
 
 source $HOME/.profile
+alias k=kubectl
+complete -F __start_kubectl k
